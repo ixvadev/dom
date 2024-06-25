@@ -1,0 +1,64 @@
+.hero__img{
+    background-image: url(../../assets/img/HERO\ IMG.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    nav{
+        
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: #FFFFFF;
+        .navbar{
+            display: flex;
+            gap: 30px;
+            a{
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
+
+        .navbar__korzinak{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .navbar__call__logo{
+            display: flex;
+        }
+    }
+
+    .dobros{
+        margin-left: 180px;
+        color: #D67E35;
+
+        .dobros__dorbo{
+            font-size: 90px;
+        }
+        
+        .dobros__nash{
+            font-size: 80px;
+            margin: 0;
+        }
+
+        .dobros__dom{
+            display: flex;
+            gap: 10px;
+            color: #FFFFFF;
+            p{
+                font-size: 16px;
+            }
+        }
+
+        .view{
+            margin-left: 70px;
+            button{
+                background-color: #D67E35;
+                border: none;
+                color: #FFFFFF;
+                width: 137px;
+                height: 47px;
+            }
+        }
+    }
+}

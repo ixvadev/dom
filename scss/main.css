@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.hero__img {
+  background-image: url(../../assets/img/HERO\ IMG.png);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+}
+.hero__img nav {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+}
+.hero__img nav .navbar {
+  display: flex;
+  gap: 30px;
+}
+.hero__img nav .navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.hero__img nav .navbar__korzinak {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.hero__img nav .navbar__call__logo {
+  display: flex;
+}
+.hero__img .dobros {
+  margin-left: 180px;
+  color: #D67E35;
+}
+.hero__img .dobros .dobros__dorbo {
+  font-size: 90px;
+}
+.hero__img .dobros .dobros__nash {
+  font-size: 80px;
+  margin: 0;
+}
+.hero__img .dobros .dobros__dom {
+  display: flex;
+  gap: 10px;
+  color: #FFFFFF;
+}
+.hero__img .dobros .dobros__dom p {
+  font-size: 16px;
+}
+.hero__img .dobros .view {
+  margin-left: 70px;
+}
+.hero__img .dobros .view button {
+  background-color: #D67E35;
+  border: none;
+  color: #FFFFFF;
+  width: 137px;
+  height: 47px;
+}/*# sourceMappingURL=main.css.map */
