@@ -19,7 +19,7 @@ body {
 .hero__img nav {
   padding-top: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   color: #FFFFFF;
 }
 .hero__img nav .navbar {
@@ -37,13 +37,21 @@ body {
 }
 .hero__img nav .navbar__call__logo {
   display: flex;
+  gap: 10px;
+}
+.hero__img nav .zakaz__stol button {
+  background-color: #D67E35;
+  border: none;
+  color: #FFFFFF;
+  width: 137px;
+  height: 47px;
 }
 .hero__img .dobros {
   margin-left: 180px;
   color: #D67E35;
 }
-.hero__img .dobros .dobros__dorbo {
-  font-size: 90px;
+.hero__img .dobros .dobros__dorbo p {
+  font-size: 50px;
 }
 .hero__img .dobros .dobros__nash {
   font-size: 80px;
@@ -66,4 +74,33 @@ body {
   color: #FFFFFF;
   width: 137px;
   height: 47px;
+}
+
+.cards__nash {
+  background-color: #D67E35;
+  width: 349px;
+  height: 328px;
+  text-align: center;
+}
+
+.hasha__istoryas {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hasha__istoryas .hasha__istoryas__istorya {
+  text-align: center;
+}
+.hasha__istoryas .hasha__istoryas__istorya .hasha__istoryas__istorya1 {
+  font-size: 54px;
+  font-family: Tinos, sans-serif;
+}
+.hasha__istoryas .hasha__istoryas__istorya .hasha__istoryas__istorya1 span {
+  color: #D67E35;
+}
+.hasha__istoryas .hasha__istoryas__statik {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=main.css.map */
