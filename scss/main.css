@@ -133,4 +133,90 @@ body {
   color: #FFFFFF;
   width: 157px;
   height: 47px;
+}
+
+.nashe {
+  margin-bottom: 50px;
+}
+.nashe .nashe__h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 54px;
+}
+.nashe .nashe__h1 span {
+  color: #D67E35;
+}
+.nashe .nashe__nashes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.nashe .nashe__nashes__card {
+  display: flex;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.nashe .nashe__nashes__card p {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 26px;
+}
+
+.nasheprovo {
+  margin-bottom: 100px;
+}
+.nasheprovo .nashe__h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 54px;
+}
+.nasheprovo .nashe__h1 span {
+  color: #D67E35;
+}
+.nasheprovo .nasheprovo__flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.nakaloys div {
+  text-align: center;
+  font-family: Open Sans, sans-serif;
+}
+
+.galeblod .nashe__h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 54px;
+}
+.galeblod .nashe__h1 span {
+  color: #D67E35;
+}
+.galeblod .galeriys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.galeblod .galeriys .galeriy .galeriy__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 33px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero__img nav {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
