@@ -4,7 +4,6 @@
     height: 800px;
     background-size: cover;
     nav{
-        
         padding-top: 50px;
         display: flex;
         justify-content: space-around; 
@@ -22,6 +21,9 @@
             display: flex;
             justify-content: center;
             gap: 30px;
+        }
+        .navbar__call{
+            margin-top: -30px;
         }
         .navbar__call__logo{
             display: flex;
