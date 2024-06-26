@@ -104,3 +104,33 @@
         justify-content: space-around;
     }
 }
+
+.otprazs{
+    background-image: url(/assets/img/bg\ sec3.png);
+    width: 100%;
+    height: 357px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    align-items: center;
+    .otprazs__odnom{
+        font-size: 52px;
+        color: #D67E35;
+    }
+    .otprazs__tolka{
+        color: #FFFFFF;
+        font-size: 24px;
+        font-family: Open Sans, sans-serif;
+    }
+    .otprazs__bt{
+        align-items: center;
+        display: flex;
+        .otprazs__zakaz{
+            background-color: #D67E35;
+            border: none;
+            color: #FFFFFF;
+            width: 157px;
+            height: 47px;
+        }
+    }
+}
